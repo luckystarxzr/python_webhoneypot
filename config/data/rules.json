@@ -1,0 +1,89 @@
+{
+    "command_injection": {
+        "patterns": [
+            ";",
+            "&&",
+            "||",
+            "|",
+            "`",
+            "$",
+            "(",
+            ")",
+            "<",
+            ">"
+        ],
+        "blocked_commands": [
+            "rm",
+            "wget",
+            "curl",
+            "nc",
+            "bash",
+            "sh",
+            "python"
+        ]
+    },
+    "sql_injection": {
+        "patterns": [
+            "'",
+            "\"",
+            "union",
+            "select",
+            "drop",
+            "delete",
+            "update",
+            "insert"
+        ],
+        "keywords": [
+            "or",
+            "and",
+            "where",
+            "like",
+            "="
+        ]
+    },
+    "xss": {
+        "patterns": [
+            "<script>",
+            "javascript:",
+            "onerror=",
+            "onload=",
+            "eval("
+        ],
+        "tags": [
+            "script",
+            "img",
+            "iframe",
+            "object",
+            "embed"
+        ]
+    },
+    "directory_traversal": {
+        "patterns": [
+            "../",
+            "..\\",
+            "..",
+            "/etc/",
+            "c:\\"
+        ],
+        "sensitive_files": [
+            "/etc/passwd",
+            "web.config",
+            ".htaccess"
+        ]
+    },
+    "file_inclusion": {
+        "patterns": [
+            "php://",
+            "file://",
+            "data://",
+            "ftp://",
+            "http://"
+        ],
+        "extensions": [
+            ".php",
+            ".asp",
+            ".jsp",
+            ".cgi"
+        ]
+    }
+}

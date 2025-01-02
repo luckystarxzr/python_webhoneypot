@@ -1,0 +1,855 @@
+2025-01-02 10:32:04,830 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:04,830 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:04,831 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:04,831 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:04] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-01-02 10:32:05,054 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:05,054 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:05,055 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:05,055 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:05] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-01-02 10:32:37,749 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 10:32:37,749 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 10:32:40,762 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:40,762 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:40,774 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:40,775 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:40] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-01-02 10:32:41,315 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:41,316 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:41,317 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:41,317 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:41] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-01-02 10:32:41,587 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:41,588 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:41,589 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:41,589 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:41] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-01-02 10:32:44,533 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:44,533 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:44,534 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:44,534 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:44] "[35m[1mGET /logs?type=&date=2025-01-02&search= HTTP/1.1[0m" 500 -
+2025-01-02 10:32:44,765 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:44,765 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:44,766 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:44,767 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:44] "[35m[1mGET /logs?type=&date=2025-01-02&search= HTTP/1.1[0m" 500 -
+2025-01-02 10:32:46,614 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:46,615 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:46,619 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:46] "GET /admin/dashboard HTTP/1.1" 200 -
+2025-01-02 10:32:46,678 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:46] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 10:32:46,684 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 467, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 10:32:46,684 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:46] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 10:32:48,239 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:48,239 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:48,240 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:48,241 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:48] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-01-02 10:32:51,613 - python_web_honeypot.app - ERROR - ∂¡»°»’÷æ ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 276, in get_logs
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 10:32:51,614 - python_web_honeypot.app - ERROR - µº≥ˆ»’÷æ ß∞‹: √ª”–ø…µº≥ˆµƒ»’÷æ ˝æ›
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 438, in export_attack_logs
+    raise ValueError("√ª”–ø…µº≥ˆµƒ»’÷æ ˝æ›")
+ValueError: √ª”–ø…µº≥ˆµƒ»’÷æ ˝æ›
+
+2025-01-02 10:32:51,614 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:51] "[35m[1mGET /export_logs HTTP/1.1[0m" 500 -
+2025-01-02 10:32:53,233 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:53,233 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:32:53,234 - python_web_honeypot.app - ERROR - œ‘ æ»’÷æ ß∞‹: 'min' is undefined
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 416, in show_logs
+    return render_template(
+        'logs.html',
+    ...<6 lines>...
+        current_search=search
+    )
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\python_web_honeypot\templates\logs.html", line 170, in top-level template code
+    {% for p in range([(page-2), 1]|max, min(total_pages + 1, page + 3)) %}
+    ^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+
+2025-01-02 10:32:53,235 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:32:53] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-01-02 10:34:03,883 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 10:34:03,884 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 10:34:08,578 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:34:08,579 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:34:08,588 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:34:08] "GET /logs HTTP/1.1" 200 -
+2025-01-02 10:34:13,836 - python_web_honeypot.app - ERROR - ∂¡»°»’÷æ ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 276, in get_logs
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 10:34:13,837 - python_web_honeypot.app - ERROR - µº≥ˆ»’÷æ ß∞‹: √ª”–ø…µº≥ˆµƒ»’÷æ ˝æ›
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 438, in export_attack_logs
+    raise ValueError("√ª”–ø…µº≥ˆµƒ»’÷æ ˝æ›")
+ValueError: √ª”–ø…µº≥ˆµƒ»’÷æ ˝æ›
+
+2025-01-02 10:34:13,837 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:34:13] "[35m[1mGET /export_logs HTTP/1.1[0m" 500 -
+2025-01-02 10:35:04,612 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 10:35:04,612 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 10:35:15,907 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 10:35:15,907 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 10:35:19,869 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {"timestamp": "2025-01-02 10:18:00", "type": "system_access", "details": "∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥", "blocked": False, "ip": "127.0.0.1"}
+2025-01-02 10:35:19,869 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {"timestamp": "2025-01-02 10:18:11", "type": "system_access", "details": "∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥", "blocked": False, "ip": "127.0.0.1"}
+2025-01-02 10:35:19,870 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:35:19] "GET /export_logs HTTP/1.1" 200 -
+2025-01-02 10:36:50,737 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:36:50] "GET /system/upload HTTP/1.1" 200 -
+2025-01-02 10:36:52,783 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:36:52] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:36:57,314 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:36:57] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:37:13,630 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:13] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:37:17,101 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:17] "GET / HTTP/1.1" 200 -
+2025-01-02 10:37:24,113 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:37:24,113 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:37:24,121 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:24] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 10:37:24,180 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 10:37:24,187 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 494, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 10:37:24,187 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:24] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 10:37:29,844 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:29] "GET /command_injection HTTP/1.1" 200 -
+2025-01-02 10:37:29,863 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:29] "[33mGET /static/js/iconfont.js HTTP/1.1[0m" 404 -
+2025-01-02 10:37:29,864 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:29] "[36mGET /static/js/emulators.js HTTP/1.1[0m" 304 -
+2025-01-02 10:37:33,818 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:33] "POST /api/emulators/command_injection HTTP/1.1" 200 -
+2025-01-02 10:37:38,240 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:38] "POST /api/emulators/command_injection HTTP/1.1" 200 -
+2025-01-02 10:37:43,318 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:37:43,318 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 10:37:43,319 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:43] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 10:37:43,340 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 10:37:43,351 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 494, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 10:37:43,352 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:37:43] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 10:39:08,969 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:08] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:21,344 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:21] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:21,533 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:21] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:21,760 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:21] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:21,965 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:21] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:22,156 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:22] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:22,358 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:22] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:22,568 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:22] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:22,760 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:39:22] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:39:28,157 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 10:39:28,157 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 10:41:16,772 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:41:16] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:41:16,947 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:41:16] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:51:42,166 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 10:51:42,166 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 10:51:48,181 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:51:48] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:51:48,916 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:51:48] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:51:49,099 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:51:49] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:51:53,059 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:51:53] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:06,103 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:06] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:06,447 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:06] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:06,702 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:06] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:06,918 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:06] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:13,053 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:13] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:14,008 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:14] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:14,208 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:14] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:52:14,361 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:52:14] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:55:10,056 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 10:55:10,056 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 10:55:42,043 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:55:42] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:55:42,797 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:55:42] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:55:43,013 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:55:43] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:55:43,202 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:55:43] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:55:47,300 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:55:47] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:56:20,153 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:56:20] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:56:20,356 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:56:20] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:56:20,580 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:56:20] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 10:56:24,735 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:56:24] "GET /system/search HTTP/1.1" 200 -
+2025-01-02 10:57:22,472 - api.emulators.directory_traversal - DEBUG - Request form data: ImmutableMultiDict([('path', '../')])
+2025-01-02 10:57:22,472 - api.emulators.directory_traversal - DEBUG - Request headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 10
+Sec-Ch-Ua-Platform: "Windows"
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Accept: */*
+Sec-Ch-Ua: "Microsoft Edge";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Sec-Ch-Ua-Mobile: ?0
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/directory_traversal
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Cookie: session=eyJjc3JmX3Rva2VuIjoiNDQwMzg0NTU4NTBjZGYyMmFjMzUwNWExNjExNmY2YjMxNzc2NjQwOSJ9.Z3XeJQ.wUNMZSHQ0xxK1wQHIa0XEu6OB5o
+
+
+2025-01-02 10:57:22,472 - api.emulators.directory_traversal - DEBUG - Received path: ../
+2025-01-02 10:57:22,472 - api.emulators.directory_traversal - DEBUG - Checking patterns against path: ../
+2025-01-02 10:57:22,472 - api.emulators.directory_traversal - DEBUG - Detected patterns: ['../', '..']
+2025-01-02 10:57:22,472 - api.emulators.directory_traversal - INFO - Attack detected with patterns: ['../', '..']
+2025-01-02 10:57:22,512 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:22] "POST /api/emulators/directory_traversal HTTP/1.1" 200 -
+2025-01-02 10:57:39,306 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:39] "GET /command_injection HTTP/1.1" 200 -
+2025-01-02 10:57:39,464 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:39] "[33mGET /static/js/iconfont.js HTTP/1.1[0m" 404 -
+2025-01-02 10:57:39,503 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:39] "[36mGET /static/js/emulators.js HTTP/1.1[0m" 304 -
+2025-01-02 10:57:42,216 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:42] "GET /sql_injection HTTP/1.1" 200 -
+2025-01-02 10:57:42,336 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:42] "[36mGET /static/js/emulators.js HTTP/1.1[0m" 304 -
+2025-01-02 10:57:42,339 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:42] "[33mGET /static/js/iconfont.js HTTP/1.1[0m" 404 -
+2025-01-02 10:57:45,877 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:45] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 10:57:59,740 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:57:59] "[35m[1mGET /system/api/users?username=SELECT+*+FROM+users+WHERE+id+%3D+1+OR+1%3D1&department= HTTP/1.1[0m" 500 -
+2025-01-02 10:58:01,617 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:01] "[35m[1mGET /system/api/users?username=SELECT+*+FROM+users+WHERE+id+%3D+1+OR+1%3D1&department= HTTP/1.1[0m" 500 -
+2025-01-02 10:58:15,165 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:15] "[35m[1mGET /system/api/users?username=SELECT+*+FROM+users+WHERE+id+%3D+1+OR+1%3D2&department= HTTP/1.1[0m" 500 -
+2025-01-02 10:58:17,051 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:17] "[35m[1mGET /system/api/users?username=SELECT+*+FROM+users+WHERE+id+%3D+1+OR+1%3D2&department= HTTP/1.1[0m" 500 -
+2025-01-02 10:58:32,089 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:32] "GET /system/upload HTTP/1.1" 200 -
+2025-01-02 10:58:40,396 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:40] "POST /api/emulators/xss HTTP/1.1" 200 -
+2025-01-02 10:58:47,615 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:47] "GET /system/upload HTTP/1.1" 200 -
+2025-01-02 10:58:49,199 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:49] "GET /system/upload HTTP/1.1" 200 -
+2025-01-02 10:58:49,964 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:49] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 10:58:53,490 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 10:58:53] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:01:35,177 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:01:35,178 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:01:39,506 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:39] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 11:01:48,056 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:48] "GET / HTTP/1.1" 200 -
+2025-01-02 11:01:49,218 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:49] "GET /xss HTTP/1.1" 200 -
+2025-01-02 11:01:49,276 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:49] "[36mGET /static/js/emulators.js HTTP/1.1[0m" 304 -
+2025-01-02 11:01:51,928 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:51] "POST /api/emulators/xss HTTP/1.1" 200 -
+2025-01-02 11:01:54,086 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:01:54,086 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:01:54,086 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:01:54,086 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:01:54,086 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:01:54,086 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:01:54,093 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:54] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 11:01:54,118 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:54] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 11:01:54,134 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 495, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 11:01:54,134 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:01:54] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 11:05:42,933 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:05:42,933 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:05:48,626 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:48,627 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:48,627 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:48,627 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:48,627 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:48,627 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:48,633 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:48] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 11:05:48,671 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 11:05:48,677 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 496, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 11:05:48,679 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:48] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 11:05:49,350 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,350 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,350 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,350 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,350 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,350 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,351 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 11:05:49,362 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 11:05:49,378 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 496, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 11:05:49,378 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 11:05:49,554 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,554 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,554 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,554 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,554 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,554 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,555 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 11:05:49,565 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 11:05:49,579 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 496, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 11:05:49,579 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 11:05:49,739 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,739 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,739 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,739 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,739 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,739 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,740 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 11:05:49,751 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 11:05:49,766 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 496, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 11:05:49,766 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 11:05:49,922 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,923 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,923 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,923 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,923 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,923 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:49,923 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 11:05:49,934 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 11:05:49,944 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 496, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 11:05:49,945 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:49] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 11:05:50,082 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:50,082 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '∑√Œ √€πﬁœµÕ≥∫ÛÃ® ◊“≥', 'blocked': False, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:50,082 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:50,082 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:50,082 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:50,082 - python_web_honeypot.app - ERROR - Œﬁ–ßµƒ»’÷æ––: {'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '≤È—Ø≤Œ ˝: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+
+2025-01-02 11:05:50,083 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:50] "GET /dashboard HTTP/1.1" 200 -
+2025-01-02 11:05:50,094 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-02 11:05:50,098 - python_web_honeypot.app - ERROR - ªÒ»°“«±Ì∞ÂÕ≥º∆ ˝æ› ß∞‹: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "E:\python_web_honeypot\app.py", line 496, in get_dashboard_stats
+    logs = [json.loads(line.strip()) for line in f if line.strip()]
+            ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 344, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucky\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 360, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+2025-01-02 11:05:50,099 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:05:50] "[35m[1mGET /api/dashboard/stats HTTP/1.1[0m" 500 -
+2025-01-02 11:06:52,461 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:06:52,461 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:07:59,210 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:07:59] "GET /command_injection HTTP/1.1" 200 -
+2025-01-02 11:07:59,232 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:07:59] "[33mGET /static/js/iconfont.js HTTP/1.1[0m" 404 -
+2025-01-02 11:07:59,254 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:07:59] "[36mGET /static/js/emulators.js HTTP/1.1[0m" 304 -
+2025-01-02 11:08:06,568 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:06] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:06,789 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:06] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:07,008 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:07] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:07,204 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:07] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:07,412 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:07] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:07,596 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:07] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:07,785 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:07] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:07,981 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:07] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:08,180 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:08] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:08,377 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:08] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:08,556 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:08] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:08,737 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:08] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:08,920 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:08] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:09,112 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:09] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:09,320 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:09] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:09,512 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:09] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:49,827 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:49] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:50,015 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:50] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:50,199 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:50] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:50,386 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:50] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:50,574 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:50] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:50,751 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:50] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:50,935 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:50] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:08:51,114 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:08:51] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:13:59,106 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:13:59,106 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:14:04,607 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:04] "GET /system/tools HTTP/1.1" 200 -
+2025-01-02 11:14:13,436 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:13] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:14,465 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:14] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:14,680 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:14] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:14,876 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:14] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:15,069 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:15] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:15,281 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:15] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:15,469 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:15] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:15,604 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:15] "POST /system/api/diagnose HTTP/1.1" 200 -
+2025-01-02 11:14:32,573 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:14:32,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:14:32,573 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:14:32,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:14:37,269 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:14:37,269 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:14:39,413 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:39] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:14:39,617 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:39] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:14:39,800 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:39] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:14:40,001 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:40] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:14:40,221 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:40] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:14:40,416 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:40] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:14:40,616 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:14:40] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:18:53,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:18:53,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:19:04,433 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:04] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:19:04,603 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:04] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:19:04,782 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:04] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:19:04,967 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:04] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:19:05,159 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:05] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:19:05,351 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:05] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:19:05,546 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:05] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:19:05,719 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:19:05] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:21:21,561 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:21:21,561 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:21:34,987 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:21:34] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:21:35,176 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:21:35] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:21:35,368 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:21:35] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:21:35,576 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:21:35] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:21:35,814 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:21:35] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:22:12,418 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:22:12,418 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:22:18,583 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:22:18] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:22:18,780 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:22:18] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:22:18,984 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:22:18] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:22:19,168 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:22:19] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:22:19,328 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:22:19] "[31m[1mPOST /system/api/diagnose HTTP/1.1[0m" 403 -
+2025-01-02 11:22:55,028 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:22:55,029 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:23:00,444 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:23:00] "GET / HTTP/1.1" 200 -
+2025-01-02 11:23:02,863 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:23:02] "GET / HTTP/1.1" 200 -
+2025-01-02 11:23:03,029 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:23:03] "GET / HTTP/1.1" 200 -
+2025-01-02 11:28:07,501 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:28:07,501 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:28:50,791 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:28:50] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:28:51,492 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:28:51] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:28:51,690 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:28:51] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:28:51,854 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:28:51] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:28:52,030 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:28:52] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:28:52,197 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:28:52] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:16,897 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:33:16,897 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:33:24,230 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:24] "GET / HTTP/1.1" 200 -
+2025-01-02 11:33:26,046 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:26] "GET /sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:26,141 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:26] "[33mGET /static/js/iconfont.js HTTP/1.1[0m" 404 -
+2025-01-02 11:33:26,172 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:26] "[36mGET /static/js/emulators.js HTTP/1.1[0m" 304 -
+2025-01-02 11:33:26,229 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:26] "[33mGET /static/js/iconfont.js HTTP/1.1[0m" 404 -
+2025-01-02 11:33:29,186 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:29] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:29,377 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:29] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:29,620 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:29] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:29,808 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:29] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:29,985 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:29] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:30,172 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:30] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:30,336 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:30] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:33:30,500 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:33:30] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:35:44,342 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:35:44,343 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 11:35:58,252 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:35:58] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:35:58,454 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:35:58] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:35:58,653 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:35:58] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:35:58,846 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:35:58] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:35:59,029 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:35:59] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:35:59,148 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2025 11:35:59] "POST /api/emulators/sql_injection HTTP/1.1" 200 -
+2025-01-02 11:36:21,914 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-02 11:36:21,915 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

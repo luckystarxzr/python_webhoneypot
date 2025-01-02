@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业管理系统 - 登录</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            height: 100vh;
+            background-image: url('/static/images/bg.png');
+            background-size: cover;
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .company-logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .company-logo img {
+            width: 150px;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #6c757d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="company-logo">
+                <h2>福星科技</h2>
+                <p class="text-muted">企业资源管理系统 V3.1.4</p>
+            </div>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="username" class="form-label">用户名</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">密码</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="remember">
+                    <label class="form-check-label" for="remember">记住密码</label>
+                    <a href="/system/forgot_password" class="float-end text-decoration-none">忘记密码？</a>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">登录系统</button>
+            </form>
+            <div class="footer">
+                <p>© 2024 福星科技 版权所有</p>
+                <p>推荐使用Chrome、Firefox、Edge等现代浏览器</p>
+                <p>系统版本：3.1.4-stable</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            
+            fetch('/system/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    username: username,
+                    password: password,
+                    remember: document.getElementById('remember').checked
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert('登录失败：' + data.error);
+                } else if (data.success) {
+                    window.location.href = '/system/index';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('登录失败，请稍后重试');
+            });
+        });
+    </script>
+</body>
+</html> ,,

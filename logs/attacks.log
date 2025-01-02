@@ -1,0 +1,65 @@
+{"timestamp": "2025-01-02 09:52:30", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true}
+{"timestamp": "2025-01-02 09:52:30", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true}
+{"timestamp": "2025-01-02 09:52:35", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true}
+{"timestamp": "2025-01-02 09:52:36", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true}
+{"timestamp": "2025-01-02 09:52:36", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true}
+{"timestamp": "2025-01-02 09:52:36", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true}
+{"timestamp": "2025-01-02 09:53:38", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: whoami | 模式: whoami", "blocked": true}
+{"timestamp": "2025-01-02 09:56:46", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true, "severity": 4}
+{'timestamp': '2025-01-02 10:18:00', 'type': 'system_access', 'details': '访问蜜罐系统后台首页', 'blocked': False, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 10:18:11', 'type': 'system_access', 'details': '访问蜜罐系统后台首页', 'blocked': False, 'ip': '127.0.0.1'}
+{"timestamp": "2025-01-02 10:22:29", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: ls | 模式: ls", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 10:37:33", "type": "Command Injection", "ip": "127.0.0.1", "details": "检测到命令注入 | 命令: date | 模式: date", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 10:57:22", "type": "Directory Traversal", "ip": "127.0.0.1", "details": "检测到目录遍历攻击 | 路径: ../ | 模式: ../..", "blocked": true, "severity": 3}
+{"timestamp": "2025-01-02 10:57:45", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{'timestamp': '2025-01-02 10:57:59', 'type': 'sql_injection', 'details': '查询参数: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 10:58:01', 'type': 'sql_injection', 'details': '查询参数: username=SELECT * FROM users WHERE id = 1 OR 1=1, department=', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 10:58:15', 'type': 'sql_injection', 'details': '查询参数: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 10:58:17', 'type': 'sql_injection', 'details': '查询参数: username=SELECT * FROM users WHERE id = 1 OR 1=2, department=', 'blocked': True, 'ip': '127.0.0.1'}
+{"timestamp": "2025-01-02 10:58:40", "type": "XSS", "ip": "127.0.0.1", "details": "检测到XSS攻击 | 输入: <script>alert('XSS')</script> | 模式: script_tag, alert", "blocked": true, "severity": 3}
+{"timestamp": "2025-01-02 11:01:51", "type": "XSS", "ip": "127.0.0.1", "details": "检测到XSS攻击 | 输入: <script>alert('XSS')</script> | 模式: script_tag, alert", "blocked": true, "severity": 3}
+{'timestamp': '2025-01-02 11:14:39', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: whoami | 模式: whoami', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:14:39', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: whoami | 模式: whoami', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:14:39', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: whoami | 模式: whoami', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:14:40', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: whoami | 模式: whoami', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:14:40', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: whoami | 模式: whoami', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:14:40', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: whoami | 模式: whoami', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:14:40', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: whoami | 模式: whoami', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:04', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:04', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:04', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:04', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:05', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:05', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:05', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:19:05', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:21:34', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:21:35', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:21:35', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:21:35', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:21:35', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:22:18', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:22:18', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:22:18', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:22:19', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{'timestamp': '2025-01-02 11:22:19', 'type': 'Command Injection', 'details': '检测到命令注入 | 命令: ls | 模式: ls', 'blocked': True, 'ip': '127.0.0.1'}
+{"timestamp": "2025-01-02 11:28:50", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:28:51", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:28:51", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:28:51", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:28:52", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:28:52", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:29", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:29", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:29", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:29", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:29", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:30", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:30", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:33:30", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:35:58", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:35:58", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:35:58", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:35:58", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:35:59", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}
+{"timestamp": "2025-01-02 11:35:59", "type": "SQL Injection", "ip": "127.0.0.1", "details": "检测到SQL注入 | 查询: SELECT * FROM users WHERE id = 1 OR 1=1 | 模式: select", "blocked": true, "severity": 4}

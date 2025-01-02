@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>攻击日志</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .filters {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .table {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .table th {
+            background-color: #4a90e2;
+            color: white;
+            font-weight: 500;
+            padding: 12px;
+        }
+
+        .table td {
+            padding: 12px;
+            vertical-align: middle;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .badge {
+            padding: 6px 12px;
+            font-weight: 500;
+            font-size: 0.85em;
+        }
+
+        .no-logs {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+            font-size: 1.2em;
+        }
+
+        .pagination {
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .export-btn {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>攻击日志</h1>
+
+        <!-- 过滤器 -->
+        <div class="filters">
+            <div class="row">
+                <div class="col-md-3">
+                    <select class="form-select" id="attackType">
+                        <option value="">所有攻击类型</option>
+                        {% for type in attack_types %}
+                        <option value="{{ type }}" {% if type == current_type %}selected{% endif %}>
+                            {{ type }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <input type="date" class="form-control" id="dateFilter"
+                           value="{{ current_date }}">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control"
+                           placeholder="搜索IP或详情..."
+                           id="searchFilter"
+                           value="{{ current_search }}">
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100" onclick="applyFilters()">
+                        应用过滤
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 导出按钮 -->
+        <div class="text-end export-btn">
+            <button class="btn btn-success" onclick="exportLogs()">
+                <i class="bi bi-download"></i> 导出日志
+            </button>
+        </div>
+
+        {% if logs and logs|length > 0 %}
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>时间</th>
+                        <th>攻击类型</th>
+                        <th>IP地址</th>
+                        <th>详情</th>
+                        <th>状态</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for log in logs %}
+                    <tr>
+                        <td>{{ log.timestamp }}</td>
+                        <td>
+                            <span class="badge badge-{{ log.type|lower }}">
+                                {{ log.type }}
+                            </span>
+                        </td>
+                        <td>{{ log.ip }}</td>
+                        <td>{{ log.details }}</td>
+                        <td>
+                            <span class="badge bg-{{ 'danger' if log.blocked else 'success' }}">
+                                {{ '已拦截' if log.blocked else '已通过' }}
+                            </span>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 分页 -->
+        <nav>
+            <ul class="pagination">
+                {% if page > 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page-1 }}&type={{ current_type }}&date={{ current_date }}&search={{ current_search }}">上一页</a>
+                </li>
+                {% endif %}
+
+                {% set start_page = page - 2 if (page - 2) > 0 else 1 %}
+                {% set end_page = start_page + 4 if (start_page + 4) <= total_pages else total_pages %}
+
+                {% for p in range(start_page, end_page + 1) %}
+                <li class="page-item {{ 'active' if p == page else '' }}">
+                    <a class="page-link" href="?page={{ p }}&type={{ current_type }}&date={{ current_date }}&search={{ current_search }}">{{ p }}</a>
+                </li>
+                {% endfor %}
+
+                {% if page < total_pages %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page + 1 }}&type={{ current_type }}&date={{ current_date }}&search={{ current_search }}">下一页</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% else %}
+        <div class="no-logs">
+            <i class="bi bi-info-circle"></i>
+            暂无攻击日志记录
+        </div>
+        {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function applyFilters() {
+            const type = document.getElementById('attackType').value;
+            const date = document.getElementById('dateFilter').value;
+            const search = document.getElementById('searchFilter').value;
+
+            window.location.href = `/logs?type=${type}&date=${date}&search=${search}`;
+        }
+
+        function exportLogs() {
+            const type = document.getElementById('attackType').value;
+            const date = document.getElementById('dateFilter').value;
+            const search = document.getElementById('searchFilter').value;
+
+            window.location.href = `/export_logs?type=${type}&date=${date}&search=${search}`;
+        }
+    </script>
+</body>
+</html>
